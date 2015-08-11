@@ -1,40 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700,500,900' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
-
 <head>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700,500,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <!-- Modal -->
-  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-        </div>
-        <div class="modal-body">
-          <img class="img-responsive" src="http://placehold.it/555x300" alt="Can't see me.">
-          This was my first project in this class. I learned a lot about HTML and CSS.
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container" style="max-width:1200px">
+  <div class="container">
     <div class="row">
-      <div class="col-md-8"><img class="img-responsive" src="http://placehold.it/120x120" alt="Can you see me?">
+      <div class="col-md-3, col-xs-3">
+        <img src="http://placehold.it/120x120" alt="Can you see me?">
       </div>
-      <div class="col-md-4" style="margin-right">
-          <h1  class="text-uppercase" style="text-align: right">Jane Doette</h1>
-          <h3  class="text-uppercase" style="text-align: right">Front-end Ninja</h3>
+      <div class="col-md-9, col-xs-9">
+          <h1  class="text-uppercase">Jane Doette</h1>
+          <h3  class="text-uppercase">Front-end Ninja</h3>
       </div>
       <div class="col-md-12">
         <hr>
@@ -45,25 +30,22 @@
         <h2>Featured Work</h2>
       </div>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4, col-sm-4">
           <img class="img-responsive" src="http://placehold.it/500x300" data-toggle="modal" data-target="#project1" alt="My 1st project">
           <h4 class="text-uppercase">Appify</h4>
           <p><a href="http://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4, col-sm-4">
           <img class="img-responsive" src="http://placehold.it/500x300" alt="My 2nd project.">
           <h4 class="text-uppercase">Sunflower</h4>
           <p><a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4, col-sm-4">
           <img class="img-responsive" src="http://placehold.it/500x300" alt="My 3rd project.">
           <h4>Bokeh</h4>
           <p><a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
         </div>
       </div>
-    <div id="TMPwmHiddenDiv"></div><div id="UMS_TOOLTIP" style="position: absolute; cursor: pointer; z-index: 2147483647; top: -100000px; left: -100000px; background: transparent;"><img id="ums_img_tooltip" class="UMSRatingIcon" src="" alt=""></div>
   </div>  
-  </div>
-  </div> 
-
-</body><umsdataelement id="UMSSendDataEventElement"></umsdataelement></html>
+</body>
+</html>
