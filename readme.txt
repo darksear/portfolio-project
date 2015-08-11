@@ -22,3 +22,10 @@ changed the hex notation to lowercase
 added space before opening brace on all css rules
 separated each rule with a line
 used font shorthand
+
+Fixes Part Deux:
+
+Moved meta tags to be first items in the header
+Fixed indentations
+Removed commas between classes in all objects
+Put the div outside a row into a row
