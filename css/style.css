@@ -55,3 +55,92 @@ p {
 hr {
 	border-width: 5px;
 }
+
+@media screen and (max-width: 300px) {
+    h4 {
+		font-size: 70%;
+	}
+
+    img {
+        margin: auto;
+    	width: 60%;
+    	padding: 10px;
+    }
+}
+
+@media screen and (min-width: 301px) and (max-width: 400px) {
+    h4 {
+    	font-size: 100%;
+    }
+
+    img {
+        margin: auto;
+    	width: 60%;
+    	padding: 10px;
+    }
+}
+
+@media screen  and (min-width: 401px) and (max-width: 499px) {
+    h4 {
+    	font-size: 110%;
+    }
+
+    img {
+        margin: auto;
+    	width: 60%;
+    	padding: 10px;
+    }
+
+    h2 {
+    	text-align: center;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+    h4 {
+    	font-size: 160%;
+    }
+
+    img {
+        margin: auto;
+    	width: 60%;
+     	padding: 10px;
+    }
+
+    h2 {
+    	text-align: center;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1199px) {
+    h4 {
+    	font-size: 200%;
+    }
+    
+    img {
+        margin: auto;
+    	width: 60%;
+      	padding: 10px;
+    }
+
+    h2 {
+    	text-align: center;
+    }
+
+    a {
+    	font-size: 80%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h4 {
+    	font-size: 200%;
+    }
+    
+    img {
+    	margin: 0px;
+    	width: 100%;
+    	border: 0px;
+    	padding: 5px;
+    }
+}

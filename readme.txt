@@ -29,3 +29,4 @@ Moved meta tags to be first items in the header
 Fixed indentations
 Removed commas between classes in all objects
 Put the div outside a row into a row
+Added @media queries for a more robust experience
