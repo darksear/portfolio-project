@@ -1,146 +1,146 @@
 
 
 * {
-	font: 16px "Verdana", sans-serif;
-	color: #bcbbbb;
+    font: 16px "Verdana", sans-serif;
+    color: #bcbbbb;
 }
 
 .max {
-	max-width: 1200px;
+    max-width: 1200px;
 }
 
 .container {
-	max-width: 1200px
+    max-width: 1200px
 }
 
 .row {
-	max-width: 1200px;
+    max-width: 1200px;
 }
 
 h1 {
-	font: 100 50px "Roboto", sans-serif;
-	color: #bcbbbb;
-	text-align: right;
+    font: 100 50px "Roboto", sans-serif;
+    color: #bcbbbb;
+    text-align: right;
 }
 
 h2 {
-	font: 400 36px "Roboto", sans-serif;
-	color: #bcbbbb;
-	font-weight: 400;
+    font: 400 36px "Roboto", sans-serif;
+    color: #bcbbbb;
+    font-weight: 400;
 }
 
 h3 {
-	font: 400 17px "Roboto", sans-serif;
-	color: #747705;
-	border-width: 3px;
-	border-color: #bcbbbb;
-	text-align: right;
+    font: 400 17px "Roboto", sans-serif;
+    color: #747705;
+    border-width: 3px;
+    border-color: #bcbbbb;
+    text-align: right;
 }
 
 h4 {
-	font: 400 50px 'Roboto', sans-serif;
-	color: #747704;
-	text-align: center;
+    font: 400 50px 'Roboto', sans-serif;
+    color: #747704;
+    text-align: center;
 }
 
 a {
-	font: 16px "Roboto", sans-serif;
-	color: #bcbbbb;
+    font: 16px "Roboto", sans-serif;
+    color: #bcbbbb;
 }
 
 p {
-	text-align: center;
+    text-align: center;
 }
 
 hr {
-	border-width: 5px;
+    border-width: 5px;
 }
 
 @media screen and (max-width: 300px) {
     h4 {
-		font-size: 70%;
-	}
+        font-size: 70%;
+    }
 
     img {
         margin: auto;
-    	width: 60%;
-    	padding: 10px;
+        width: 60%;
+        padding: 10px;
     }
 }
 
 @media screen and (min-width: 301px) and (max-width: 400px) {
     h4 {
-    	font-size: 100%;
+        font-size: 100%;
     }
 
     img {
         margin: auto;
-    	width: 60%;
-    	padding: 10px;
+        width: 60%;
+        padding: 10px;
     }
 }
 
 @media screen  and (min-width: 401px) and (max-width: 499px) {
     h4 {
-    	font-size: 110%;
+        font-size: 110%;
     }
 
     img {
         margin: auto;
-    	width: 60%;
-    	padding: 10px;
+        width: 60%;
+        padding: 10px;
     }
 
     h2 {
-    	text-align: center;
+        text-align: center;
     }
 }
 
 @media screen and (min-width: 500px) and (max-width: 699px) {
     h4 {
-    	font-size: 160%;
+        font-size: 160%;
     }
 
     img {
         margin: auto;
-    	width: 60%;
-     	padding: 10px;
+        width: 60%;
+        padding: 10px;
     }
 
     h2 {
-    	text-align: center;
+        text-align: center;
     }
 }
 
 @media screen and (min-width: 700px) and (max-width: 1199px) {
     h4 {
-    	font-size: 200%;
+        font-size: 200%;
     }
     
     img {
         margin: auto;
-    	width: 60%;
-      	padding: 10px;
+        width: 60%;
+        padding: 10px;
     }
 
     h2 {
-    	text-align: center;
+        text-align: center;
     }
 
     a {
-    	font-size: 80%;
+        font-size: 80%;
     }
 }
 
 @media screen and (min-width: 1200px) {
     h4 {
-    	font-size: 200%;
+        font-size: 200%;
     }
     
     img {
-    	margin: 0px;
-    	width: 100%;
-    	border: 0px;
-    	padding: 5px;
+        margin: 0px;
+        width: 100%;
+        border: 0px;
+        padding: 5px;
     }
 }
